@@ -1,12 +1,11 @@
 {
-  "name": "labdocker",
+  "name": "my-node-app",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Ứng dụng Node.js hiển thị 'Hello, Docker!'",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "keywords": [],
   "author": "",
-  "license": "ISC",
-  "description": ""
+  "license": "ISC"
 }
